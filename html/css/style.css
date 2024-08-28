@@ -78,7 +78,7 @@ textarea {
 	width: 18vw;
 	min-height: 3.3vh;
 	max-height: 3.3vh;
-	border: 0.09vh solid #333b46;
+	border: 0.1px solid #333b46;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	resize: none;
@@ -108,19 +108,19 @@ textarea:focus, input:focus {
 
 .suggestions {
 	list-style-type: none;
-	padding: 0.46vh;
+	padding: 0.1vh;
 	padding-left: 2.5vh;
-	font-size: 1.6vh;
+	font-size: 1.2vh;
 	box-sizing: border-box;
 	color: white;
 	background: radial-gradient(circle, rgba(74, 94, 38, 0.684) 0%, rgba(61, 79, 31, 0.256) 100%);
     border-style: solid;
     border-radius: 3px;
-    border-width: 0.1rem;
+    border-width: 0.1px;
     border-color: rgb(134, 164, 77);
-	width: 18vw;
+	width: 18.4vw;
 	position: absolute;
-    top: 8.5vh;
+    top: 6vh;
     left: 2vh;
 }
 
@@ -142,7 +142,7 @@ textarea:focus, input:focus {
 .chat-message {
 	display: inline-block !important;
 	padding: 0.65vw;
-	margin: 0.1vw;
+	margin: 1vw;
 	background: radial-gradient(circle, rgba(74, 94, 38, 0.684) 0%, rgba(61, 79, 31, 0.256) 100%);
     border-style: solid;
     border-radius: 3px;
@@ -243,7 +243,7 @@ font-weight:normal;
     padding-right: 1vw;
     padding-top: 0.3vh;
     padding-bottom: 0.3vh;
-    font-size: 1.2vh;
+    font-size: 1vh;
     outline: none;
     text-decoration: none;
     color: white;
@@ -255,6 +255,6 @@ font-weight:normal;
 	position: absolute;
     left: 35vh;
     top: 0.6vh;
-    font-size: 2vh;
+    font-size: 1vh;
     color: rgb(182, 236, 56);
 }
